@@ -1,0 +1,25 @@
+.validation-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/signup.jpg);
+}
+
+#validation-form {
+    width: 50%;
+}
+
+#validation-form .form-control:focus,
+#validation-form .form-select:focus {
+    border-color: rgb(165, 211, 249);
+    box-shadow: 0 0 0 0.08rem rgb(126, 199, 247);
+}
+
+@media only screen and (max-width: 992px) {
+    #validation-form {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #validation-form {
+        width: 100%;
+    }
+}
